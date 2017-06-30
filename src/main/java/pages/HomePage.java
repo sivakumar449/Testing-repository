@@ -16,7 +16,7 @@ public class HomePage extends OpentapsWrappers  {
 			reportStep("This is not Home Page", "FAIL");
 		}
 	}
-	
+	//LogOut Functionality
 	public LoginPage clickLogOut(){
 		clickByClassName("decorativeSubmit");
 		return new LoginPage(driver, test); 
